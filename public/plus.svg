@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="91px" viewBox="0 0 91 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M535.5,383 C512.580183,383 494,364.419817 494,341.5 C494,318.580183 512.580183,300 535.5,300 C558.419817,300 577,318.580183 577,341.5 C577,364.419817 558.419817,383 535.5,383 Z M540,338 L540,317 C540,314.790861 538.209139,313 536,313 C533.790861,313 532,314.790861 532,317 L532,338 L511,338 C508.790861,338 507,339.790861 507,342 C507,344.209139 508.790861,346 511,346 L532,346 L532,367 C532,369.209139 533.790861,371 536,371 C538.209139,371 540,369.209139 540,367 L540,346 L561,346 C563.209139,346 565,344.209139 565,342 C565,339.790861 563.209139,338 561,338 L540,338 Z" id="path-1"></path>
+        <filter x="-7.2%" y="-7.2%" width="114.5%" height="114.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.271201313   0 0 0 0 0.271201313   0 0 0 0 0.271201313  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-490.000000, -296.000000)">
+            <g id="Combined-Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

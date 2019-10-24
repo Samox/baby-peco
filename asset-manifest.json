@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/baby-peco/static/css/main.b32a2121.chunk.css",
-    "main.js": "/baby-peco/static/js/main.8d7dd1bf.chunk.js",
-    "main.js.map": "/baby-peco/static/js/main.8d7dd1bf.chunk.js.map",
+    "main.css": "/baby-peco/static/css/main.384614c5.chunk.css",
+    "main.js": "/baby-peco/static/js/main.8ebe7f1b.chunk.js",
+    "main.js.map": "/baby-peco/static/js/main.8ebe7f1b.chunk.js.map",
     "runtime-main.js": "/baby-peco/static/js/runtime-main.36085534.js",
     "runtime-main.js.map": "/baby-peco/static/js/runtime-main.36085534.js.map",
-    "static/js/2.70b29706.chunk.js": "/baby-peco/static/js/2.70b29706.chunk.js",
-    "static/js/2.70b29706.chunk.js.map": "/baby-peco/static/js/2.70b29706.chunk.js.map",
+    "static/js/2.e6d227be.chunk.js": "/baby-peco/static/js/2.e6d227be.chunk.js",
+    "static/js/2.e6d227be.chunk.js.map": "/baby-peco/static/js/2.e6d227be.chunk.js.map",
     "index.html": "/baby-peco/index.html",
-    "precache-manifest.4a397a13e1ee83c1ac4ab6be17a5b8fd.js": "/baby-peco/precache-manifest.4a397a13e1ee83c1ac4ab6be17a5b8fd.js",
+    "precache-manifest.89043d6f8a7cce34358dbade45d85811.js": "/baby-peco/precache-manifest.89043d6f8a7cce34358dbade45d85811.js",
     "service-worker.js": "/baby-peco/service-worker.js",
-    "static/css/main.b32a2121.chunk.css.map": "/baby-peco/static/css/main.b32a2121.chunk.css.map"
+    "static/css/main.384614c5.chunk.css.map": "/baby-peco/static/css/main.384614c5.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.36085534.js",
-    "static/js/2.70b29706.chunk.js",
-    "static/css/main.b32a2121.chunk.css",
-    "static/js/main.8d7dd1bf.chunk.js"
+    "static/js/2.e6d227be.chunk.js",
+    "static/css/main.384614c5.chunk.css",
+    "static/js/main.8ebe7f1b.chunk.js"
   ]
 }

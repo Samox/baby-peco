@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/baby-peco/precache-manifest.4a397a13e1ee83c1ac4ab6be17a5b8fd.js"
+  "/baby-peco/precache-manifest.89043d6f8a7cce34358dbade45d85811.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,12 +1,10 @@
 import React from 'react';
 import Trend from 'react-trend';
 
-export const AddScore: React.FunctionComponent = () => {
-
-    const [isVisible, setIsVisible] = React.useState(true);
+export const AddScore: React.FunctionComponent<{ isVisible: boolean }> = (props) => {
 
     return (
-        <div className={isVisible ? "contener-splashscreen" : "contener-splashscreen contener-splashscreen-undisplayed"}>
+        <div className={props.isVisible ? "contener-splashscreen" : "contener-splashscreen contener-splashscreen-undisplayed"}>
             <div className="splashscreen-wrapper">
                 <form action="post">
                     <div className="title-add">Ajouter un score</div>

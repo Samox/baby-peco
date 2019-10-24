@@ -3,6 +3,7 @@ import './App.css';
 import useAxios from 'axios-hooks';
 import { Splashscreen } from './splashscreen';
 import { ScoreTemplate } from './scoreTemplate';
+import { AddScore } from './addScore';
 
 interface Player {
   name: string
@@ -18,6 +19,7 @@ interface T {
 
 const App: React.FC = () => {
 
+  const [isVisible, setIsVisible] = React.useState(false);
   const [{ data, loading, error }] = useAxios<T>(
     'https://baby-peco.herokuapp.com'
   )
@@ -25,10 +27,11 @@ const App: React.FC = () => {
   if (error) return <p>Error!</p>
 
 
+  const displayAddScore = () => { console.log("croute") }
   return (
 
     <div className="App">
-      <div className="header-peco"><img className="logo" alt="" src="logo.png"></img><img className="add" src="plus.svg" alt="" /></div>
+      <div className="header-peco"><img className="logo" alt="" src="logo.png"></img><img onClick={displayAddScore} className="add" src="plus.svg" alt="" /></div>
       <header className="App-header">
         <Splashscreen></Splashscreen>
         {data.resultDays[0].results.map((result) => {
@@ -36,7 +39,7 @@ const App: React.FC = () => {
         })}
 
 
-        {/* <AddScore /> */}
+        <AddScore isVisible={isVisible} />
       </header>
     </div>
   );

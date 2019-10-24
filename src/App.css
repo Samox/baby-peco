@@ -169,6 +169,7 @@ form button {
 
 .contener-splashscreen-undisplayed{
   opacity: 0;
+  display: none;
 }
 
 .splashscreen-wrapper{

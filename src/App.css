@@ -46,12 +46,12 @@
   margin: 15px;
 }
 
-form{
+.form{
   width:100%;
   margin-bottom: 80px;
 }
 
-form button {
+.form button {
   background-image: linear-gradient(to right, #08055b, #5b197a);
   width: 90%;
   height: 40px;

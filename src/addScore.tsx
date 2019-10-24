@@ -1,12 +1,11 @@
 import React from 'react';
 import Trend from 'react-trend';
 
-export const AddScore: React.FunctionComponent<{ isVisible: boolean }> = (props) => {
-
+export const AddScore: React.FunctionComponent<{ isVisible: boolean; closeModal: () => void }> = (props) => {
     return (
         <div className={props.isVisible ? "contener-splashscreen" : "contener-splashscreen contener-splashscreen-undisplayed"}>
             <div className="splashscreen-wrapper">
-                <form action="post">
+                <div className="form">
                     <div className="title-add">Ajouter un score</div>
                     <div>
                         <div className="contener-add-score">
@@ -23,9 +22,9 @@ export const AddScore: React.FunctionComponent<{ isVisible: boolean }> = (props)
                         </div>
                     </div>
                     <div className="contener-button">
-                        <button>Ajouter</button>
+                        <button onClick={props.closeModal}>Ajouter</button>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     );

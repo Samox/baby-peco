@@ -27,19 +27,21 @@ const App: React.FC = () => {
   if (error) return <p>Error!</p>
 
 
-  const displayAddScore = () => { console.log("croute") }
+  const displayModal = () => { setIsVisible(true) }
+  const closeModal = () => { setIsVisible(false) }
+
   return (
 
     <div className="App">
-      <div className="header-peco"><img className="logo" alt="" src="logo.png"></img><img onClick={displayAddScore} className="add" src="plus.svg" alt="" /></div>
+      <div className="header-peco"><img className="logo" alt="" src="logo.png"></img><img onClick={displayModal} className="add" src="plus.svg" alt="" /></div>
       <header className="App-header">
-        <Splashscreen></Splashscreen>
+        {/* <Splashscreen></Splashscreen> */}
         {data.resultDays[0].results.map((result) => {
           return <ScoreTemplate key={result.player.name} resultat={result} />
         })}
 
 
-        <AddScore isVisible={isVisible} />
+        <AddScore isVisible={isVisible} closeModal={closeModal} />
       </header>
     </div>
   );
